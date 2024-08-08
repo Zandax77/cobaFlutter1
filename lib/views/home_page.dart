@@ -13,10 +13,19 @@ class _HomeState extends State<Home> {
     return Scaffold(
       appBar: AppBar(
         title: const Text('Home'),
+        backgroundColor: Colors.blue,
+        foregroundColor: Colors.white,
+        actions: [
+          IconButton(
+            onPressed: () {},
+            icon: const Icon(Icons.logout),
+          ),
+          IconButton(onPressed: () {}, icon: const Icon(Icons.settings)),
+        ],
       ),
       body: Center(
         child: Column(
-          mainAxisAlignment: MainAxisAlignment.center,
+          mainAxisAlignment: MainAxisAlignment.start,
           children: [
             const SizedBox(height: 20),
             Image.asset(
