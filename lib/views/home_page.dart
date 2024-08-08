@@ -14,12 +14,17 @@ class _HomeState extends State<Home> {
       appBar: AppBar(
         title: const Text('Home'),
       ),
-      body: const Center(
+      body: Center(
         child: Column(
           mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            SizedBox(height: 20),
-            Text("Coba aplikasi ini"),
+            const SizedBox(height: 20),
+            Image.asset(
+              "/images/home.png",
+              width: 100,
+              height: 100,
+            ),
+            const Text("Coba aplikasi ini"),
           ],
         ),
       ),
