@@ -43,7 +43,7 @@ class _RegisterState extends State<Register> {
                     return null;
                   },
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 TextFormField(
@@ -58,7 +58,7 @@ class _RegisterState extends State<Register> {
                     return null;
                   },
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 TextFormField(
@@ -73,17 +73,17 @@ class _RegisterState extends State<Register> {
                     return null;
                   },
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 ElevatedButton(
                   onPressed: () {},
                   child: const Text('Register'),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
-                Text("Sudah punya akun? silahkan Login"),
+                const Text("Sudah punya akun? silahkan Login"),
                 TextButton(
                     onPressed: () {
                       Navigator.push(
@@ -93,7 +93,7 @@ class _RegisterState extends State<Register> {
                         ),
                       );
                     },
-                    child: Text("Login")),
+                    child: const Text("Login")),
               ],
             ),
           ),

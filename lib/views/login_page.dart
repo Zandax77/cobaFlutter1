@@ -44,7 +44,7 @@ class _LoginState extends State<Login> {
                     return null;
                   },
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 TextFormField(
@@ -59,7 +59,7 @@ class _LoginState extends State<Login> {
                     return null;
                   },
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 ElevatedButton(
@@ -75,7 +75,7 @@ class _LoginState extends State<Login> {
                   },
                   child: const Text('Login'),
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 TextButton(
@@ -87,7 +87,7 @@ class _LoginState extends State<Login> {
                         ),
                       );
                     },
-                    child: Text("Register")),
+                    child: const Text("Register")),
               ],
             ),
           ),
